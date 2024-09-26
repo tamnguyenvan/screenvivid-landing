@@ -52,7 +52,8 @@ export default async function HeroLanding() {
               "gap-2",
             )}
           >
-            <span>Download Now</span>
+            <Icons.download className="mr-2 size-4" />
+            <span>Download</span>
           </Link>
           <Link
             href={siteConfig.links.github}

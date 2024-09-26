@@ -35,10 +35,10 @@ export default function BentoGrid() {
               </div>
               <div className="relative z-10 mt-8 space-y-1.5 text-center">
                 <h2 className="text-lg font-medium text-foreground">
-                  Zero Cost
+                  Free to Use
                 </h2>
                 <p className="text-muted-foreground">
-                  Enjoy ScreenVivid without any cost, knowing your data is secure and private.
+                  Enjoy ScreenVivid for free as an individual user. For business or commercial applications, please contact us.
                 </p>
               </div>
             </div>
@@ -102,10 +102,10 @@ export default function BentoGrid() {
               </div>
               <div className="relative z-10 mt-8 space-y-1.5 text-center">
                 <h2 className="text-lg font-medium text-foreground">
-                  Secure by default
+                  Data Privacy
                 </h2>
                 <p className="text-muted-foreground">
-                  ScreenVivid is designed with security in mind, ensuring that user data remains secure and private.
+                  As an open-source project, ScreenVivid prioritizes data privacy, giving users full control and transparency over their information.
                 </p>
               </div>
             </div>
@@ -172,7 +172,7 @@ export default function BentoGrid() {
                   Multi-Platform Support
                 </h2>
                 <p className="text-muted-foreground">
-                  ScreenVivid seamlessly integrates across various platforms, providing a consistent user experience.
+                  ScreenVivid supports Linux, macOS, and Windows, ensuring a seamless experience across different operating systems.
                 </p>
               </div>
             </div>
