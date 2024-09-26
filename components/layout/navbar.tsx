@@ -43,7 +43,7 @@ export function NavBar({ scroll = false }: NavBarProps) {
           <Link href="/" className="flex items-center space-x-1.5">
             <Icons.logo className="size-10" />
             <span className="font-urban text-xl font-bold">
-              {siteConfig.name}
+              {"creenVivid"}
             </span>
           </Link>
 
