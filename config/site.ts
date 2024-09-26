@@ -4,7 +4,7 @@ import { env } from "@/env.mjs";
 const site_url = env.NEXT_PUBLIC_APP_URL;
 
 export const siteConfig: SiteConfig = {
-  name: "ScreenVivid",
+  name: "ScreenVivid - Free, Multi-Platform Screen Recording Software",
   description:
     "ScreenVivid is a screen recording software that allows you to record your screen and share your screen with your friends.",
   url: site_url,
