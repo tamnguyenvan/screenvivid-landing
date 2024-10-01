@@ -30,6 +30,7 @@ const fetchLatestRelease = async () => {
       } else if (asset.name.endsWith('.dmg')) {
         acc.macos = asset.browser_download_url;
       }
+      acc.source = "https://github.com/tamnguyenvan/screenvivid/tree/main?tab=readme-ov-file#running-from-source"
       return acc;
     }, {});
   } catch (error) {
@@ -42,6 +43,7 @@ const DownloadPage = () => {
     windows?: string;
     linux?: string;
     macos?: string;
+    source?: string;
   }>({});
 
   useEffect(() => {
@@ -52,6 +54,7 @@ const DownloadPage = () => {
     windows: downloadLinks.windows || "#",
     linux: downloadLinks.linux || "#",
     macos: downloadLinks.macos || "#",
+    source: downloadLinks.source || "#",
   };
 
   return (
@@ -65,8 +68,8 @@ const DownloadPage = () => {
         <div className="mb-8 grid grid-cols-1 gap-4 md:grid-cols-2">
           <DownloadButton icon={<Icons.windows className='size-6 '/>} text="Download for Windows" href={downloadLinksProps.windows} />
           <DownloadButton icon={<Icons.linux className='size-6'/>} text="Download for Linux (x86-64 .deb)" href={downloadLinksProps.linux} />
-          <DownloadButton icon={<Icons.apple className='size-6'/>} text="Download for macOS (Intel)" href={downloadLinksProps.macos} />
           <DownloadButton icon={<Icons.apple className='size-6'/>} text="Download for macOS (Apple Silicon)" href={downloadLinksProps.macos} />
+          <DownloadButton icon={<Icons.linux className='size-6'/>} text="Other Linux distributions (install from source)" href={downloadLinksProps.source} />
         </div>
 
         <div className="mb-8 rounded-lg bg-gray-800 p-6">

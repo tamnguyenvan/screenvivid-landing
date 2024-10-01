@@ -37,7 +37,7 @@ export default async function HeroLanding() {
           className="max-w-2xl text-balance leading-normal text-muted-foreground sm:text-xl sm:leading-8"
           style={{ animationDelay: "0.35s", animationFillMode: "forwards" }}
         >
-          Experience the power of a multi-platform, open-source desktop app for screen recording and video editing on macOS, Windows, and Linux.
+          Experience the power of a cross-platform, open-source desktop app for screen recording and video editing on macOS, Windows, and Linux.
         </p>
 
         <div

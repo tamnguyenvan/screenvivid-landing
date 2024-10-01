@@ -8,11 +8,11 @@ export const marketingConfig: MarketingConfig = {
     },
     {
       title: "Contact",
-      href: "mailto:tamnv.work@gmail.com",
+      href: "https://x.com/tamnvvn",
     },
     {
       title: "About",
-      href: "#about",
+      href: "https://github.com/tamnguyenvan/screenvivid",
     }
   ],
 }

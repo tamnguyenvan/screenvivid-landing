@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
   links: {
     twitter: "https://x.com/tamnvvn",
     github: "https://github.com/tamnguyenvan/screenvivid",
-    discord: "https://discord.gg/mJW2krrz",
+    discord: "https://discord.gg/AZG3jB3D",
   },
   mailSupport: "tamnv.work@gmail.com",
 };
@@ -21,16 +21,17 @@ export const footerLinks: SidebarNavItem[] = [
   {
     title: "Company",
     items: [
-      { title: "About", href: "#" },
       { title: "Home", href: "#" },
-      { title: "Contact", href: "mailto:tamnv.work@gmail.com" },
+      { title: "Contact", href: "https://x.com/tamnvvn" },
+      { title: "Community", href: "https://discord.gg/AZG3jB3D" },
+      { title: "About", href: "https://github.com/tamnguyenvan/screenvivid" },
     ],
   },
   {
     title: "Help & Legal",
     items: [
-      { title: "Terms of Service", href: "/terms" },
-      { title: "Privacy Policy", href: "/privacy" },
+      { title: "License", href: "https://github.com/tamnguyenvan/screenvivid/blob/main/LICENSE" },
+      { title: "Support", href: "https://discord.gg/AZG3jB3D" },
     ],
   },
 ];
