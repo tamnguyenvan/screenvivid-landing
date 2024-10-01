@@ -93,7 +93,7 @@ const DownloadPage = () => {
             <li>Click Open in the dialog box. If prompted, enter your admin name and password.</li>
             <li>If the above doesn&apos;t work, run this command in the Terminal:</li>
           </ol>
-          <CodeBlock>xattr -cr /Applications/screenvivid.app</CodeBlock>
+          <CodeBlock>xattr -cr /Applications/ScreenVivid.app</CodeBlock>
           <p className="mt-4 text-sm text-gray-400">
             For more detailed instructions on how to open apps that haven&apos;t been notarized or are from unidentified developers, please visit the <a href="https://support.apple.com/en-vn/guide/mac-help/mchleab3a043/mac" className="text-indigo-400 hover:underline">official Apple support page</a>.
           </p>

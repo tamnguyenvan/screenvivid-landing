@@ -69,7 +69,34 @@ export function NavBar({ scroll = false }: NavBarProps) {
           ) : null}
         </div>
 
-        <div className="flex items-center space-x-3">
+        <div className="flex items-center space-x-4">
+          <Link
+            href={siteConfig.links.github}
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium underline underline-offset-4"
+          >
+            <Icons.gitHub className="size-5" />
+          </Link>
+
+          <Link
+            href={siteConfig.links.twitter}
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium underline underline-offset-4"
+          >
+            <Icons.twitter className="size-5" />
+          </Link>
+
+          <Link
+            href={siteConfig.links.discord}
+            target="_blank"
+            rel="noreferrer"
+            className="font-medium underline underline-offset-4"
+          >
+            <Icons.discord className="size-5" />
+          </Link>
+
           <a
             href="https://www.patreon.com/tamnvvn"
             target="_blank"
